@@ -1,2 +1,1 @@
 Kurs FRONTEND - JAVASCRIPT
-test
