@@ -49,14 +49,18 @@ function changeSlide( direction ){
  //   console.log(currSlide)
     changeHTMLInfo(currSlide)
 }
-changeHTMLInfo(currSlide)
+changeHTMLInfo(currSlide) 
  
 const leftArr = document.querySelector(".leftArr")
 leftArr.onclick = function(){
     changeSlide("left")
 }
 
-const rightArr = document.querySelector(".rightArr")
+/* const rightArr = document.querySelector(".rightArr")
 rightArr.onclick = function(){
+    changeSlide("right")
+}*/
+
+document.querySelector(".rightArr").onclick = function(){
     changeSlide("right")
 }
